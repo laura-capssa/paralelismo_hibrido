@@ -9,7 +9,7 @@
 int main(int argc, char *argv[]) {
 
     // Inicializa o ambiente MPI (obrigatório)
-    MPI_Init(&argc, &argv__);
+    MPI_Init(&argc, &argv);
 
     int rank, size;
 
